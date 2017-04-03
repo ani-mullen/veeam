@@ -1,0 +1,31 @@
+.page {
+  @mixin set-font $line,
+  calc($line * 1.5);
+  /* размер шрифта - 14px, высота строки - 21px */
+  color: $text-color;
+  font-family: $font-family-regular;
+}
+
+.second-color {
+  background-color: $second-theme-color;
+}
+
+.hr {
+  background-color: $line-color;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: none;
+  &--recovery {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and ($tablet) {
+  .hr {
+    margin-top: 0;
+  }
+}

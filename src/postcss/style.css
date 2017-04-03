@@ -1,0 +1,30 @@
+@import "general/fonts.css";
+@import "general/normalize.css";
+@import "general/variables.css";
+@import "general/mixins.css";
+
+/* стили страница, хедер, футер */
+@import "blocks/page.css";
+@import "blocks/page-header.css";
+@import "blocks/page-footer.css";
+
+/* основные разделы main */
+@import "blocks/primary-unit.css";
+@import "blocks/presentation.css";
+@import "blocks/integration.css";
+@import "blocks/backup.css";
+@import "blocks/recovery.css";
+
+/* маленькие блоки составе секций */
+
+@import "blocks/main-form.css";
+@import "blocks/menu.css";
+
+/* вспомогательные стили */
+@import "blocks/wrapper.css";
+@import "blocks/title.css";
+@import "blocks/text.css";
+@import "blocks/link.css";
+@import "blocks/list.css";
+@import "blocks/context.css";
+@import "blocks/social-link.css";

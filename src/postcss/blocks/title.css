@@ -1,0 +1,9 @@
+.title {
+  margin: 0;
+  &--h2 {
+    @mixin set-font calc(1.6 * $line),
+    calc($line * 2.0);
+    padding-top: 10px;
+    padding-bottom: 35px;
+  }
+}

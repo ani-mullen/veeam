@@ -1,0 +1,53 @@
+.main-form__input,
+.main-form__select {
+  box-sizing: border-box;
+  margin: 4px 0 7px 0;
+  padding: 9px 12px;
+  width: 100%;
+  border: 0;
+}
+
+.main-form {
+  margin: 10px 0;
+}
+
+.main-form__select {
+  border: 0;
+  color: rgba(1, 1, 1, 0.5);
+  -webkit-appearance: none;
+  height: 39px;
+  display: block;
+ border-radius: 0px;
+}
+
+.main-form__submit {
+  background-color: $color-accent;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  color: #fff;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 0;
+  @mixin set-font calc($line * 1.15),
+  calc($line * 1.5)
+}
+
+.main-form-container {
+  position: relative;
+}
+
+.main-form__select-arrow {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.select-icon {
+  display: block;
+  position: relative;
+  padding: 7px 8px;
+  background-color: #dedada;
+  margin: 7px;
+}

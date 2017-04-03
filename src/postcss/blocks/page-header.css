@@ -1,0 +1,46 @@
+.page-header {
+  border-bottom: 4px solid $base-theme-color;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.page-header-container {
+  height: 78px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.page-header__slogan {
+  margin-left: 9px;
+  padding-left: 9px;
+  border-left: 1px solid #000;
+  @media (max-width: 528px) {
+    display: none;
+  }
+}
+
+.page-header__action {
+  position: absolute;
+  right: 0;
+  top:0;
+  &::after {
+    content: '';
+    background-color: #0067c5;
+    display: block;
+    min-width: 1000px;
+    height: 78px;
+    position: absolute;
+    left: 216px;
+    top: 0;
+  }
+  @media screen and ($phone) {
+    display: none;
+  }
+}
+
+.page-header__logo-img,
+.page-header__slogan-img,
+.page-header__action-img {
+  display: block;
+}

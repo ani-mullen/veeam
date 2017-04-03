@@ -1,0 +1,17 @@
+.social-link {
+  cursor: pointer;
+  color: #fff;
+  display: block;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 15px;
+}
+
+.social-link__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto 0;
+}

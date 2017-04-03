@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans"),
+  url("../fonts/opensans.woff") format("woff"), url("../fonts/opensans.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans"),
+  url("../fonts/opensans-bold.woff") format("woff"), url("../fonts/opensans-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Droid Sans";
+  src: local("Droid Sans"),
+  url("../fonts/droidsans.woff") format("woff"), url("../fonts/droidsans.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}

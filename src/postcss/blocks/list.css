@@ -1,0 +1,22 @@
+.list {
+  padding-left: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-right: 10px;
+}
+
+.list--integration li {
+ padding-bottom: 10px;
+}
+
+.list--backup-li li,
+.list--recovery-li li {
+  padding-bottom: 14px;
+  &:last-child {
+    padding-bottom: 21px;
+  }
+}
+
+.list--backup-ol li {
+    padding-bottom: 24px;
+}

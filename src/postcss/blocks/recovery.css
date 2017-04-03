@@ -1,0 +1,44 @@
+.recovery__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recovery__item {
+  &--small {
+    width: 33.3%;
+    box-sizing: border-box;
+    padding-right: 10px;
+  }
+  &--big {
+    width: 66.6%;
+    box-sizing: border-box;
+    padding-right: 25px;
+  }
+  	&--left{
+    width: 40%;
+  }
+  &--right,&--center {
+    width: 25%;
+  }
+  @media screen and ($tablet) {
+    &--small,
+    &--big,
+    &--center,
+    &--right,
+    &--left{
+      width: 100%;
+    }
+    &--small {
+      margin-right: 0px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.recovery-pic {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    margin-top:30px;
+}

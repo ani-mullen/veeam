@@ -1,0 +1,42 @@
+.presentation {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.presentation__item {
+  box-sizing: border-box;
+  &--small {
+    width: 35%;
+    padding-right: 25px;
+  }
+  &--big {
+    width: 65%;
+    padding-left: 10px;
+  }
+  @media screen and ($tablet) {
+    &--small,
+    &--big {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    &--small {
+      margin-right: 0px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.presentation__text {
+  margin: 0;
+  @mixin set-font calc($line * 1.25),
+  calc($line * 2);
+  margin-bottom: 20px;
+}
+
+@media screen and ($tablet) {
+  .presentation__link {
+    display: block;
+      margin-bottom: 10px;
+  }
+}

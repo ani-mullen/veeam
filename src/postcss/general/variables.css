@@ -1,0 +1,21 @@
+$font-family-regular: 'Open Sans', Helvetica, sans-serif;
+$font-family-second: 'Droid Sans', Helvetica, sans-serif;
+
+$base-theme-color:#54b948;
+$second-theme-color:#e5e9ee;
+$color-accent:#f13037;
+
+$text-color:#444444;
+$link-color:#1091c7;
+$line-color:#dcdcdc;
+
+
+$main-theme-color-hover:#669ec0;
+$main-theme-color-down:#5496bd;
+
+$error-color:#ff5c5c;
+
+$line:1rem;
+
+$phone: (max-width:380px);
+$tablet: (max-width:728px);

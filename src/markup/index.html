@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Veeam</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="page">
+  <svg style="display:none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="down-arrow" viewBox="0 0 306 306">
+      <path fill="#969696" d="M270.3 58.65L153 175.95 35.7 58.65 0 94.35l153 153 153-153z" />
+    </symbol>
+    <symbol id="icon-facebook" viewBox="0 0 455 455">
+      <path d="M0 0v455h455V0H0zm301.004 125.217H265.44c-7.044 0-14.153 7.28-14.153 12.696v36.264h49.647c-1.999 27.807-6.103 53.235-6.103 53.235h-43.798V385h-65.266V227.395h-31.771v-53.029h31.771V131.01c0-7.928-1.606-61.009 66.872-61.009h48.366v55.216z" fill="#FFF" fill-rule="evenodd" clip-rule="evenodd" />
+    </symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 242.667 242.667">
+      <path d="M0 0v242.667h242.667V0H0zm81.468 192.754H52.996V93.362h28.471v99.392zM67.513 82.028c-9.55 0-17.319-7.204-17.319-16.058s7.77-16.058 17.319-16.058 17.319 7.204 17.319 16.058-7.77 16.058-17.319 16.058zm124.96 110.726h-29.172v-58.946c.006-.12.432-9.478-4.874-15.068-2.641-2.783-6.279-4.194-10.814-4.194-11.408 0-17.17 8.214-19.612 13.189v65.019H99.529V93.362H128v8.397c9.32-7.561 19.787-11.55 30.335-11.55 27.003 0 34.138 21.093 34.138 32.246v70.299z" fill="#FFF" />
+    </symbol>
+    <symbol id="icon-twitter" viewBox="0 0 455 455">
+      <path d="M0 0v455h455V0H0zm352.751 163.259c.123 2.773.186 5.561.186 8.36 0 85.403-65.002 183.876-183.873 183.876-36.496 0-70.466-10.697-99.065-29.037 5.056.601 10.199.907 15.417.907 30.278 0 58.143-10.331 80.262-27.668-28.28-.519-52.148-19.204-60.373-44.88a64.403 64.403 0 0 0 12.161 1.163c5.894 0 11.604-.794 17.027-2.268-29.563-5.939-51.841-32.057-51.841-63.368 0-.273 0-.544.006-.814a64.366 64.366 0 0 0 29.271 8.084c-17.342-11.589-28.748-31.371-28.748-53.79 0-11.845 3.187-22.945 8.751-32.492 31.873 39.101 79.493 64.828 133.203 67.526a64.831 64.831 0 0 1-1.677-14.729c0-35.688 28.938-64.623 64.626-64.623 18.589 0 35.385 7.847 47.173 20.406a129.352 129.352 0 0 0 41.038-15.681c-4.824 15.092-15.071 27.754-28.415 35.754 13.074-1.563 25.528-5.038 37.118-10.178-8.662 12.959-19.618 24.342-32.247 33.452z" fill="#FFF" fill-rule="evenodd" clip-rule="evenodd" />
+    </symbol>
+    <symbol id="icon-youtube" viewBox="0 0 455.731 455.731">
+      <g fill="#FFF">
+        <path d="M200.399 337.104c0 .56 0 1.26-.31 1.65-2.1 2.71-4.6 4.97-7.88 6.17-2.85 1.04-5.12-.23-5.72-3.19-.24-1.17-.25-2.4-.25-3.6-.01-22.05-.07-67.26-.1-67.81h-16.27c0 .61-.02 63.59.02 75.49.01 3.22.35 6.42 1.69 9.41 1.44 3.24 3.83 5.29 7.39 5.88 2.61.45 5.16.16 7.64-.69 5.08-1.75 9.06-5.05 12.57-9.01.31-.35.64-.69 1.23-1.32v9.88h16.31v-43.23-46.55l-16.32.04v66.88zM277.509 277.334c-3.44-7.33-10.67-9.27-16.94-7.7-3.8.96-6.88 3.15-9.41 5.98-.84.95-1.76 2.79-1.76 2.79v-40.01h-16.34v121.55h16.34v-6.82s1.16 1.23 1.58 1.68c3.75 4.07 8.3 6.3 13.91 6.35 6.9.07 11.7-3.27 13.88-9.83 1.01-3.05 1.34-6.19 1.35-9.37.02-16.99.02-33.98-.01-50.97 0-4.7-.57-9.319-2.6-13.65zm-14.22 62.591c0 .91-.11 1.83-.3 2.72-.75 3.56-3.46 5.16-7.3 4.37-2.33-.48-4.15-1.82-5.71-3.51-.07-.08-.53-.7-.53-.7v-1.33l-.04-53.97s.35-1 1.12-1.67c1.92-1.7 4.04-2.77 6.69-2.51 2.26.22 4.06 1.26 4.9 3.35.63 1.59 1.13 3.36 1.14 5.06.08 16.059.05 32.119.03 48.19zM218.753 171.39a6.916 6.916 0 0 0 6.909-6.909V115.73c0-3.81-3.1-6.909-6.909-6.909s-6.909 3.1-6.909 6.909v48.751c-.001 3.809 3.099 6.909 6.909 6.909zM169.909 238.405h-56.6v17.419h19.07v104.131h18.42V255.784h19.11zM324.189 328.084v11.53c0 4.03-3.26 7.29-7.28 7.29-4.03 0-7.29-3.26-7.29-7.29v-22.43h31.29s.18-15.65.05-22.75c-.05-3.03-.28-6.1-.9-9.06-1.62-7.68-5.75-13.47-13.48-16.01-2.27-.75-4.71-1.14-7.1-1.29-7.95-.51-14.91 1.76-20.35 7.85-4.77 5.33-6.43 11.75-6.44 18.71-.03 13.31-.09 26.63.04 39.94.04 3.39.42 6.85 1.19 10.15 1.66 7.09 5.53 12.66 12.36 15.74 4.99 2.26 10.26 2.37 15.58 1.59 8.58-1.26 14.43-5.86 17.26-14.15 2.13-6.21 1.88-19.82 1.88-19.82h-16.81zm-14.57-37.399c0-4.02 3.26-7.29 7.29-7.29 4.02 0 7.28 3.27 7.28 7.29v12.59h-14.57v-12.59z" />
+        <path d="M0 0v455.731h455.731V0H0zm256.735 94.99h16.596v68.821c0 .912.073 1.834.233 2.728.503 2.836 2.6 4.171 5.331 3.224 3.329-1.152 5.87-3.457 8.024-6.173.306-.388.25-1.112.25-1.681V94.99h16.717l-.005 90.244H287.16l.02-9.695c-1.849 1.821-3.427 3.522-5.161 5.05-3.074 2.708-6.556 4.727-10.629 5.524-6.253 1.222-11.579-.754-13.573-7.23-.664-2.157-1.065-4.482-1.082-6.734V94.99zm-37.982-2.259c13.224 0 23.944 10.72 23.944 23.944v46.859c0 13.224-10.72 23.944-23.944 23.944-13.224 0-23.944-10.72-23.944-23.944v-46.859c-.001-13.224 10.719-23.944 23.944-23.944zm-64.41-29.661s7.605 32.301 11.235 47.602h.006c3.63-15.301 11.235-47.602 11.235-47.602h19.029s-14.62 48.487-21.158 70.111a8.58 8.58 0 0 0-.343 2.45l.008 49.584h-17.547l.007-49.584c0-.819-.108-1.668-.343-2.45-6.538-21.624-21.158-70.111-21.158-70.111h19.029zm209.236 287.795c0 22.18-17.72 40.3-39.89 40.77a4468.85 4468.85 0 0 1-191.65 0c-22.16-.47-39.88-18.59-39.88-40.77v-99.76c0-22.17 17.72-40.29 39.88-40.76a4468.85 4468.85 0 0 1 191.65 0c22.17.47 39.89 18.59 39.89 40.76v99.76z" />
+      </g>
+    </symbol>
+  </svg>
+  <header class="page-header">
+    <div class="page-header-container wrapper">
+      <div class="page-header__logo">
+        <a href="index.html">
+          <img class="page-header__logo-img" src="img/header-logo.svg" alt="logo" width="125" height="42">
+        </a>
+      </div>
+      <div class="page-header__slogan">
+        <a href="index.html">
+          <img class="page-header__slogan-img" src="img/header-slogan.svg" alt="slogan" width="141" height="31">
+        </a>
+      </div>
+      <div class="page-header__action">
+        <img class="page-header__action-img" src="img/header-netapp.png" alt="action" width="216" height="78">
+      </div>
+    </div>
+  </header>
+  <main>
+    <section>
+        <div class="primary-unit">
+        <div class="primary-unit__container wrapper">
+          <div class="primary-unit__item">
+            <span class="label-new">new</span>
+            <h1 class="primary-title">Fast backup and quick recovery </h1>
+            <p class="primary-title">from NetApp snapshots with Veeam Availability Suite v8</p>
+            <img class="primary-unit__img" src="img/primary-unit-netapp.png" alt="netapp" width="190" height="105">
+          </div>
+          <div class="primary-unit__item">
+            <p class="primary-text">Download</p>
+            <p class="primary-text">Veeam Availability Suite v8</p>
+            <form class="main-form" action="/echo" method="post">
+              <label class="main-form__label" for="name"></label>
+              <input class="main-form__input" type="text" id="name" name="name" placeholder="First Name">
+              <label class="main-form__label" for="surname"></label>
+              <input class="main-form__input" type="text" id="surname" name="surname" placeholder="Last Name">
+              <label class="main-form__label" for="email"></label>
+              <input class="main-form__input" type="email" id="email" name="email" placeholder="Enter business email">
+              <label class="main-form__label" for="tel"></label>
+              <input class="main-form__input" type="tel" id="tel" name="tel" placeholder="Enter phone number">
+              <label class="main-form__label" for="hypervisor-1"></label>
+              <input class="main-form__input" type="text" id="hypervisor-1" name="hypervisor-1" placeholder="Choose you hypervisor...">
+              <div class="main-form-container">
+                <label for="hypervisor"></label>
+                <select class="main-form__select" name="hypervisor-2" id="hypervisor-2">
+                  <option>Choose you hypervisor...</option>
+                  <option value="VMware">VMware</option>
+                  <option value="Parallels">Parallels</option>
+                  <option value="VirtualBox">VirtualBox</option>
+                </select>
+                <span class="main-form__select-arrow">
+                <svg class="select-icon" width="13" height="13">
+                <use xlink:href="#down-arrow" />
+              </svg>
+              </span>
+              </div>
+              <input class="main-form__submit" type="submit" value="Download">
+            </form>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section class="second-color">
+        <div class="wrapper wrapper--presentation presentation">
+          <div class="presentation__item presentation__item--small">
+            <a href="http://www.veeam.com/netapp-snapshot-snapvault-snapmiror-integration.html" class="link" target="_blank">
+              <img class="context__img" src="img/video-presentation.jpg" alt="Video presentation" width="292" height="168">
+              <p class="text context__caption">Watch 3-min video: Veeam is defining the Availability for the Modern Data Center</p>
+            </a>
+          </div>
+          <div class="presentation__item presentation__item--big">
+            <p class="presentation__text text"><strong>Veeam<sup>®</sup></strong> and <strong>NetApp</strong> offer the right solution to deliver Availability for the Modern Data Center™. Veeam’s integration with NetApp helps orchestrate Data ONTAP to create application-consistent backups from NetApp storage snapshots, providing NetApp FAS and FlexArray (V-Series) customers with the ability to create image-based backups as often as needed - even during business hours - with little to no impact on production environments.</p>
+            <a class="presentation__link context-link">
+              <span class="context-link__text"><img src="img/graph-icon.png" alt="" width="32" height="30">Product Overview</span></a>
+            <a class="context-link">
+              <span class="context-link__text"><img src="img/graph-icon.png" alt="" width="32" height="30">Top 10 Reasons to Choose Veeam</span></a>
+          </div>
+        </div>
+      </section>
+      <div class="subMenu">
+        <div class="inner">
+          <a href="#sTop" class="subNavBtn menu__item active">integration</a>
+          <a href="#s2" class="subNavBtn menu__item">Backup</a>
+          <a href="#s3" class="subNavBtn menu__item">Recovery</a>
+          <a href="" class="subNavBtn extLink end menu__item-download">Download now</a>
+        </div>
+      </div>
+      <section>
+        <div class="wrapper wrapper--integration integration sTop">
+          <h2 class="title title--h2">Explore the benefits of Veeam integration with NetApp</h2>
+          <p class="text">Veeam’s <b>enterprise-level, near-continuous data protection (near-CDP)</b> delivers the best recovery time and point objectives (RTPO™) for all applications in VMware vSphere environments. The combination of NetApp’s <b>low RPO</b> capabilities and Veeam’s <b>low RTO</b> enablement allows users to:</p>
+          <div class="integration__container">
+            <div class="integration__item integration__item--one">
+              <ul class="list list--integration">
+                <li>Create backups from storage snapshots up to <b>20 times faster</b> than competitive offerings</li>
+                <li>Improve DR protection by creating instant, secondary backups from storage snapshots</li>
+              </ul>
+            </div>
+            <div class="integration__item integration__item--three">
+              <ul class="list list--integration">
+                <li>Recover individual items or entire VMs quickly and efficiently from <b>NetApp Snapshot®, SnapMirror®</b> and <b>SnapVault®</b> with <b>Veeam Explorer™ for Storage Snapshots</b></li>
+              </ul>
+            </div>
+            <div class="integration-pic integration-pic--two">
+              <img class="integration-pic__img" src="img/integration-components.jpg" alt="Video presentation" width="292" height="130">
+              <p class="context__caption integration-pic__text">Components of a Veeam backup with FAS storager</p>
+            </div>
+            <div class="integration-pic integration-pic--four">
+              <img class="integration-pic__img" src="img/storage-snapshots.jpg" alt="Video presentation" width="292" height="130">
+              <p class="context__caption integration-pic__text">Veeam Explorer for Storage Snapshots</p>
+            </div>
+          </div>
+          <p class="text">In addition to fast backups and quick recovery from NetApp Snapshot, SnapMirror and SnapVault, NetApp FAS and FlexArray (V-Series) customers can meet the most stringent RTPO of Tier-1 applications with:</p>
+          <div class="integration__container">
+            <div class="integration__item">
+              <ul class="list list--integration">
+                <li><b>Fast, application-consistent recovery points</b> by orchestrating NetApp Data ONTAP to create snapshot only backups</li>
+                <li><b>Reduce data loss</b> by automating the creation of secondary backups from NetApp SnapVault</li>
+              </ul>
+            </div>
+            <div class="integration__item">
+              <ul class="list list--integration">
+                <li><b>Verified protection</b> by automating the testing of backups to guarantee the recoverability of every file, application and virtual machine (VM)</li>
+                <li><b>A cloud ready platform</b> that enhances data availability by providing an efficient way to get backups off site to a service provider</li>
+              </ul>
+            </div>
+          </div>
+          <div class="integration-pic integration-pic--full">
+            <img class="context__img integration-pic__img" src="img/integration-scheme.jpg" alt="" width="292" height="130">
+            <p class="text context__caption context__caption--left">Ready on the cloud</p>
+          </div>
+          <a class="context-link link" href="http://fast.wistia.net/embed/iframe/w5k601c6f6?popover=true&ad=in-text-link" target="_blank">
+            <p class="text context-link__text"><img src="img/video-icon.png" alt="" width="32" height="25">Watch video on how Veeam integrates with NetApp</p>
+          </a>
+        </div>
+      </section>
+      <section class="second-color">
+        <div class="wrapper wrapper--backup backup s2">
+          <h2 class="title title--h2">Perform fast backups from NetApp Storage Snapshots</h2>
+          <div class="backup__container">
+            <div class="backup__item backup__item--big">
+              <p class="text text--bold">Dramatically improve vSphere backup</p>
+              <p class="text">Taking VMware vSphere snapshots can produce a serious burden on virtual machine (VM) performance, and it can take considerable effort by administrators to overcome this technical challenge and meet the required SLAs.</p>
+              <p class="text">Veeam dramatically improves this process, providing built-in integration with your production storage, leveraging storage snapshot functionality to reduce the impact on the environment from vSphere snapshot removal during backup and replication.</p>
+              <p class="text text--margin-big">Don’t be stuck with once-a-day backups for I/O intensive workloads—make backups and replicas as often as every 15 minutes!</p>
+              <a class="context-link link" href="" target="_blank">
+                <p class="text context-link__text"><img src="img/video-icon.png" alt="" width="32" height="25">Watch video on how Veeam integrates with NetApp</p>
+              </a>
+              <a class="context-link link" href="" target="_blank">
+                <p class="text context-link__text"><img src="img/video-icon.png" alt="" width="32" height="25">Watch video about Veeam solution for HP StoreVirtual VSA</p>
+              </a>
+            </div>
+            <div class="backup__item backup__item--small">
+              <img class="context__img" src="img/vSphere.png" alt="VM snapshot" width="292" height="130">
+              <p class="text context__caption">A job keeps a VM snapshot for only a brief moment, which results in instant VM snapshot commit</p>
+            </div>
+          </div>
+          <hr class="hr">
+          <div class="backup__container">
+            <div class="backup__item backup__item--big">
+              <p class="text text--bold">Fast vSphere backups with low RPOs</p>
+              <p class="text">Storage snapshots can be taken frequently with minimal impact to the production environment, but this can’t be your only backup solution. What if storage itself goes down, or gets corrupted? Even with storage-based replication, you need to take your data out of the single fault domain. This is why many customers prefer to additionally make true backups stored on different storage.</p>
+              <p class="text">Veeam combines best of both worlds with vSphere snapshots for application-consistent backups and storage snapshots for fast recovery point objectives (RPOs). Now you can:</p>
+              <ul class="list list--backup-li">
+                <li>Run backups at any time and frequency, dramatically improving achievable RPOs</li>
+                <li>Speed up the process—back up from storage snapshots up to 20x faster than with competitive solutions</li>
+                <li>Dramatically reduce the impact of backup activities on your production environment</li>
+              </ul>
+              <a class="context-link link" href="http://www.veeam.com/backup-from-storage-snapshots.html" target="_blank">
+                <p class="text context-link__text"><img src="img/read-icon.png" alt="" width="32" height="25">Read blog post about Veeam and NetApp</p>
+              </a>
+            </div>
+            <div class="backup__item backup__item--small">
+              <img class="context__img" src="img/video-explorer.png" alt="Veeam Explorer for Storage Snapshots" width="292" height="130">
+              <p class="text context__caption">Veeam Explorer for Storage Snapshots</p>
+            </div>
+          </div>
+          <hr class="hr">
+          <div class="backup__container">
+            <div class="backup__item backup__item--big">
+              <p class="text text--bold">How it works</p>
+              <p class="text">Veeam Backup & Replication works with HP and NetApp storage products to create backups and replicas from storage snapshots in the following way. The backup/replica job:</p>
+              <ol class="list list--backup-ol">
+                <li>Analyzes which VMs in the job have disks on supported storage.</li>
+                <li>Triggers a vSphere snapshot for all VMs located on the same storage volume. (As a part of a vSphere snapshot, Veeam’s application-aware processing of each VM is performed normally.)</li>
+                <li value="4">Triggers a snapshot of said storage volume once all VM snapshots have been created.</li>
+                <li>Retrieves the CBT information for VM snapshots created on step 2.</li>
+                <li>Immediately triggers the removal of the vSphere snapshots on the production VMs.</li>
+                <li>Mounts the storage snapshot to one of the backup proxies connected into the storage fabric.</li>
+                <li>Reads new and changed virtual disk data blocks directly from the storage snapshot and transports them to the backup repository or replica VM.</li>
+                <li>Triggers the removal storage snapshot once all VMs have been backed up.</li>
+              </ol>
+            </div>
+            <div class="backup__item backup__item--small">
+              <img class="context__img" src="img/pic-explorer.jpg" alt="Veeam Explorer for Storage Snapshots" width="292" height="130">
+              <p class="text context__caption">Veeam Explorer for Storage Snapshots</p>
+            </div>
+          </div>
+          <p class="text">As the result, VMs run off snapshots for the shortest possible time, while jobs obtain data from VM snapshot files preserved in the storage snapshot. As the result, VM snapshots do not get a chance to grow large and can be committed very quickly without overloading production storage with extended merge procedure, as is the case with classic techniques for backing up from VM snapshots.</p>
+        </div>
+      </section>
+      <section>
+        <div class="wrapper wrapper--recovery recovery s3">
+          <h2 class="title title--h2">Enjoy quick granular recovery for NetApp Storage Snapshots </h2>
+          <div class="recovery__container">
+            <div class="recovery__item recovery__item--big">
+              <p class="text text--bold">Restore from a storage snapshot in minutes!</p>
+              <p class="text">With Veeam Explorer for Storage Snapshots, you can take advantage of the low overhead that periodic SAN snapshots offer for low recovery point objectives (RPOs), and let Veeam Backup & Replication™ automate the whole recovery process for you, bringing you low recovery time objectives (RTOs) as well. You can:</p>
+              <ul class="list list--recovery-li">
+                <li>Recover guest OS files (for Windows, Linux, Novell , etc.), application items or an entire VM from a storage snapshot in two minutes or less</li>
+                <li>Restore directly from storage snapshots, eliminating the need for staging and intermediate restores</li>
+                <li>Reduce the time needed to mount snapshots 10 times or more compared to manual processes, lowering your RTOs while avoiding human errors that can occur during critical recovery steps such as mounting snapshots</li>
+              </ul>
+              <p class="text text--margin-big">With Veeam Explorer for Storage Snapshots, you can take advantage of the low overhead that periodic SAN snapshots offer for low recovery point objectives (RPOs), and let Veeam Backup & Replication™ automate the whole recovery process for you, bringing you low recovery time objectives (RTOs) as well. You can:</p>
+              <a class="context-link link" href="" target="_blank">
+                <p class="text context-link__text"><img src="img/video-icon.png" alt="" width="32" height="25">Watch video on how Veeam integrates with NetApp</p>
+              </a>
+              <a class="context-link link" href="" target="_blank">
+                <p class="text context-link__text"><img src="img/read-icon.png" alt="" width="32" height="25">Read blog post about Veeam and NetApp</p>
+              </a>
+            </div>
+            <div class="recovery__item recovery__item--small">
+              <img class="context__img" src="img/netapp-explorer.png" alt="Veeam Explorer for Storage Snapshots" width="292" height="130">
+              <p class="text context__caption">Veeam Explorer for Storage Snapshots</p>
+            </div>
+          </div>
+          <hr class="hr hr--recovery">
+          <div class="recovery__item recovery__item--big">
+            <p class="text text--bold">How it works</p>
+            <p class="text">Veeam works with HP and NetApp storage products to granular recovery from storage snapshots. Here’s how it works.</p>
+          </div>
+          <img class="context__img recovery-pic" src="img/snapshots-diagram.png" alt="" width="292" height="130">
+          <p class="text context__caption context__caption--left">For image description
+          </p>
+          <hr class="hr hr--recovery">
+          <p class="text text--bold">Supported storage:</p>
+          <div class="recovery__container">
+            <div class="recovery__item recovery__item--left">
+              <p class="text">For NetApp, all Data ONTAP based storage, including:</p>
+            </div>
+            <div class="recovery__item recovery__item--center">
+              <ul class="list list--recovery-li">
+                <li>NetApp FAS</li>
+                <li>NetApp FlexArray (V-Series)</li>
+              </ul>
+            </div>
+            <div class="recovery__item recovery__item--right">
+              <ul class="list list--recovery-li">
+                <li>NetApp Data ONTAP Edge VSA</li>
+                <li>IBM N series</li>
+              </ul>
+            </div>
+          </div>
+          </div>
+      </section>
+      <section class="second-color">
+        <div class="wrapper wrapper--about">
+          <h2 class="title title--h2">About Veeam Software</h2>
+          <p class="text presentation__text">Veeam® enables the Always-On Business™ by providing solutions that deliver Availability for the Modern Data Center™, which provides recovery time and point objectives (RTPO™) of less than 15 minutes for all applications and data. Veeam Backup & Replication™ leverages technologies that enable the modern data center, including VMware vSphere, Microsoft Hyper-V, NetApp storage, and HP 3PAR StoreServ and StoreVirtual Storage, to help organizations meet RTPOs, save time, mitigate risks, and dramatically reduce capital and operational costs. Veeam Availability Suite™ provides all of the benefits and features of Veeam Backup & Replication along with advanced monitoring, reporting and capacity planning for the backup infrastructure.</p>
+        </div>
+      </section>
+  </main>
+  <footer class="page-footer">
+    <div class="wrapper wrapper--footer">
+      <div class="page-footer__container">
+        <div class="page-footer__item page-footer__item--left page-footer-copyright">
+          <p class="text">Copyright © 2015 Veeam® Software.</p>
+          <p class="text">Privacy policy & Cookies</p>
+        </div>
+        <div class="page-footer__item page-footer__item--center">
+          <div class="page-footer__item-half">
+            <p class="text">WHITE PAPERS</p>
+            <p class="text">WEBINARS</p>
+            <p class="text">PRODUCT DEMOs</p>
+          </div>
+          <div class="page-footer__item-half">
+            <p class="text">WEBINARS</p>
+            <p class="text">VEEAM LIVE</p>
+          </div>
+        </div>
+        <div class="page-footer__item page-footer__item--right">
+          <div class="page-footer__item-half">
+            <a class="social-link link" href="https://www.facebook.com/VeeamSoftware" target="_blank">
+              <svg class="social-link__icon" width="21" height="21">
+                <use xlink:href="#icon-facebook" />
+              </svg>
+              Facebook
+            </a>
+            <a class="social-link link" href="https://twitter.com/veeam" target="_blank">
+              <svg class="social-link__icon" width="21" height="21">
+                <use xlink:href="#icon-twitter" />
+              </svg>
+              Twitter
+            </a>
+          </div>
+          <div class="page-footer__item-half">
+            <a class="social-link link" href="https://www.linkedin.com/company/veeam-software " target="_blank">
+              <svg class="social-link__icon" width="21" height="21">
+                <use xlink:href="#icon-linkedin" />
+              </svg>
+              Linkedin
+            </a>
+            <a class="social-link link" href="https://www.youtube.com/user/YouVeeam" target="_blank">
+              <svg class="social-link__icon" width="21" height="21">
+                <use xlink:href="#icon-youtube" />
+              </svg>
+              Youtube
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

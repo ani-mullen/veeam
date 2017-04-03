@@ -1,0 +1,40 @@
+.context-link {
+  color: $link-color;
+  font-family: $font-family-second;
+}
+
+.context-link img {
+  vertical-align: middle;
+  padding-right: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  margin-top: auto;
+  margin-right: 20px;
+  margin-bottom: auto;
+}
+
+.context-link__text {
+  position: relative;
+  padding: 0 45px;
+}
+
+.context__caption {
+  padding-right: 10px;
+  padding-left: 10px;
+  @mixin set-font calc($line * 0.9),
+  calc($line * 1.5);
+  font-family: $font-family-second;
+  text-align: center;
+  color: $text-color;
+  &--left {
+    text-align: left;
+  }
+}
+
+.context__img {
+  width: 100%;
+  height: auto;
+}

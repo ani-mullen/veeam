@@ -1,0 +1,19 @@
+@define-mixin set-font $font-size,
+$line-height: $line {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+@define-mixin set-padding $padding-top: $line,
+$padding-bottom: $line {
+  padding-top: $padding-top;
+  padding-bottom: $padding-bottom;
+}
+
+@define-mixin clearfix {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}

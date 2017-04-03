@@ -1,0 +1,74 @@
+.subMenu {
+  z-index: 1000;
+  width: 100%;
+  border-bottom: 1px solid #c5c5c5;
+  background-color: #fff;
+}
+
+.subMenu .inner {
+  display: flex;
+  margin: 0 auto;
+  padding-right: 0px;
+  padding-left: 10px;
+  max-width: 920px;
+  background-color: #fff;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.subNavBtn {
+  @mixin set-font calc($line * 1.4),
+  calc($line * 1.75);
+  display: block;
+  padding: 25px 0;
+  color: $text-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  &--active {
+    color: #98d591;
+    text-decoration: underline;
+  }
+}
+.menu__item {
+  padding-right: 20px;
+  width: 25%;
+  text-align: center;
+  &:first-child {
+    text-align: left;
+  }
+}
+
+.menu__item-download {
+  width: 40%;
+  background-color: #f13037;
+  text-align: center;
+  color: #fff;
+}
+
+.subMenu a:hover {
+  color: #dadada;
+  &.menu__item-download {
+    opacity:.7;
+    color:#fff;
+  }
+}
+
+.active {
+  color: #98d591;
+  text-decoration: underline;
+}
+
+.end {
+  margin: 0;
+}
+
+.sTop {
+  min-height: 130px;
+}
+
+@media screen and ($tablet) {
+  .subMenu {
+    display: none;
+  }
+}

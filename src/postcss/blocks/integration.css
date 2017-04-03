@@ -1,0 +1,54 @@
+.integration__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.integration__item {
+  width: 50%;
+}
+
+.integration-pic {
+    margin: 30px 0;
+        width: 50%;
+    &--full {
+      width: 100%;
+      margin: 20px 0;
+    }
+}
+
+.integration-pic__img {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+}
+
+.integration-pic__text {
+  width: 50%;
+  margin: 5px auto -5px auto;
+  &--left {
+    margin: 5px 0 -5px 0;
+  }
+}
+
+
+@media screen and ($tablet) {
+  .integration__item,
+  .integration-pic {
+    width: 98%;
+  }
+  .integration-list li {
+    padding-bottom: 0px;
+  }
+  .integration__item--one {
+    order: 1;
+  }
+  .integration-pic--two {
+    order: 2;
+  }
+  .integration__item--three {
+    order: 3;
+  }
+  .integration--four {
+    order: 4;
+  }
+}
